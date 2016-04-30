@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>List of Posts</title>
+
+    <link rel='stylesheet prefetch' href='css/bootstrap.min.css'>
+    <style>
+        .panel-primary > .panel-heading {
+          background-color: red !important;
+          border-color: red !important;
+        }
+        .panel-primary {
+            border-color: red !important;
+        }
+        .btn-default {
+            background-color: red !important;
+        }
+        #map {
+            width: 1100px;
+            height: 450px;
+        }
+    </style>
+  </head>
+
+  <body>
+
+    <div class="global-wrapper" ng-app="myApp">   
+    <div class="container" style="margin-top:5px;">
+    <div class="row panel panel-primary" ng-controller="homeCtrl">
+      <div class="panel-heading">
+        <h2 class="panel-title text-center">List of Blogs</h2>
+      </div>
+      <!--     Places list   	 -->
+      <div class="panel-body" ng-view></div>
+    </div>
+    </div>
+
+    <!-- template used for the ng-repeat in the place list -->
+    <script type="text/ng-template" id="place.html">
+        <a ng-href="#/place-info/{{places.indexOf(place)}}">
+        {{place.name}}
+        </a>
+        </script>
+
+        <script type="text/ng-template" id="map.html">
+        <div id="map" style='margin-top:5px;'></div>
+        <a ng-click="goBack()" style="position: absolute;top: 8px;"><button style="background-color: #BCBCBC !important;" class="btn btn-default">
+            <span class="glyphicon glyphicon-circle-arrow-left"></span><span> - Back</span>
+        </button></a>
+    </script>
+    </div>
+      
+    <script src='lib/jquery.min.js'></script>
+    <script src='lib/angular.min.js'></script>
+    <script src='lib/angular-route.min.js'></script>
+    <script src='lib/angular-resource.js'></script>
+    <script src="lib/map.js"></script>
+    <script src="scripts/app.js"></script>
+    <script src="scripts/service.js"></script>
+  </body>
+</html>

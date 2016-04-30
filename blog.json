@@ -1,0 +1,26 @@
+{"blog" : [{
+    "Address": "28th km, Mysore Road, Before Bidadi, Bengaluru, Karnataka 562109",
+    "Hours": "11:00 AM – 6:00 PM",
+    "description": "Wonderla Holidays Limited is a leading amusement park designing and operating company in India headquartered near Bidadi, 28 kilometres (17 mi) from Bangalore.",
+    "id": 0,
+    "name": "Wonderla"
+}, {
+    "Address": "Hare Krishna Hill, Chord Road, Near Orion Mall, Rajajinagar, Bengaluru, Karnataka 560010",
+    "Hours": " 7:15 AM – 1:00 PM, 4:15 – 8:30 PM",
+    "description": "Sri Radha Krishna Temple has deities of Radha and Krishna located at Rajajinagar, in North Bangalore, Karnataka, India. It is one of the largest ISKCON temples in the world.",
+    "id": 1,
+    "name": "ISKCON Temple"
+}, {
+    "Address": "Bengaluru, Karnataka 560004",
+    "Hours": " 6:00 AM – 6:00 PM",
+    "description": "Lalbagh or Lalbagh Botanical Gardens, meaning The Red Garden in English, is a well known botanical garden in southern Bangalore, India",
+    "id": 2,
+    "name": "Lalbagh Botanical Garden"
+}, {
+    "Address": "560069, S End F Cross Rd, 2nd Phase, J P Nagar, Bengaluru, Karnataka 560078",
+    "Hours": "dont know",
+    "description": "The Ragigudda Sri Prasanna Anjaneya temple is a temple dedicated to Hanuman located in Jayanagar 9th Block suburb of Bangalore. The temple also hosts a Shivalinga along with Rama, Sita, Lakshmana, Hanuman shrine in the same precinct",
+    "id": 3,
+    "name": "Ragigudda Anjaneya Temple"
+}]
+}
